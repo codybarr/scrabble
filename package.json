@@ -5,7 +5,9 @@
 	"main": "index.js",
 	"scripts": {
 		"test": "jest",
-		"generate": "node generate"
+		"generate": "node generate",
+		"bump:patch": "npm version patch -m 'Version patch bump to %s.'",
+		"deploy:npm": "npm publish --access public"
 	},
 	"keywords": [
 		"scrabble",
