@@ -1,0 +1,31 @@
+{
+	"name": "@nosweat/scrabble",
+	"version": "1.0.0",
+	"description": "Simple scrabble solver using a trie data structure in Node.",
+	"main": "index.js",
+	"scripts": {
+		"test": "jest",
+		"generate": "node generate"
+	},
+	"keywords": [
+		"scrabble",
+		"trie"
+	],
+	"author": "Cody Barr <cody.barr@gmail.com>",
+	"license": "MIT",
+	"dependencies": {},
+	"devDependencies": {
+		"jest": "^24.9.0"
+	},
+	"directories": {
+		"test": "test"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/codybarr/scrabble.git"
+	},
+	"bugs": {
+		"url": "https://github.com/codybarr/scrabble/issues"
+	},
+	"homepage": "https://github.com/codybarr/scrabble#readme"
+}
