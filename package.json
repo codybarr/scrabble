@@ -1,6 +1,6 @@
 {
 	"name": "@nosweat/scrabble",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Simple scrabble solver using a trie data structure in Node.",
 	"main": "index.js",
 	"scripts": {
