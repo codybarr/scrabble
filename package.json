@@ -17,6 +17,7 @@
 	"license": "MIT",
 	"dependencies": {},
 	"devDependencies": {
+		"inquirer": "^7.0.0",
 		"jest": "^24.9.0"
 	},
 	"directories": {

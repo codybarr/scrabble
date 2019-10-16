@@ -28,9 +28,17 @@ Feel free to submit PRs if you'd like to contribute to the project.
 
 ## `yarn generate`
 
-Generates a "dictionary.json" file in the `./dictionaries` directory based on the word list in the
-`./dictionaries/words` file.
+This command will run the `generate.js` program. It scans the `./wordlists` directory for wordlist
+files, prompts for a selection, and will generate a serialized trie in json format, and save it to
+the `./dictionaries/` folder.
 
-If you want to use a different dictionary replace the `words` file with your own.
+If you would like to create a dictionary of your own you can add a new word list here.
 
-SOWPODS is the current word list.
+## Current Word Lists
+
+* **NASPA Word List / `twl06`** (USA & Canada) See https://en.wikipedia.org/wiki/NASPA_Word_List.
+* **Collins Scrabble Words / `sowpods`** (Basically everywhere else) See https://en.wikipedia.org/wiki/Collins_Scrabble_Words
+
+
+If you want to use a different dictionary replace the `words` file with your own. Currently the NASPA word list is used
+by default.

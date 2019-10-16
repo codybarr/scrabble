@@ -1,5 +1,5 @@
 const trie = require('./trie')
-const dictionaryJSON = require('./dictionaries/dictionary.json')
+const dictionaryJSON = require('./dictionaries/twl06.json')
 
 const dictionary = trie([])
 dictionary.load(dictionaryJSON)
